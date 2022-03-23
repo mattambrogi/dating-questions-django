@@ -171,6 +171,6 @@ import os.path
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [str(BASE_DIR.joinpath("static"))] 
-#STATIC_ROOT = BASE_DIR / "staticfiles" 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# Removing the following line fixed deployment bug
 #STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage" 
