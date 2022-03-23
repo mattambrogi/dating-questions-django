@@ -1,0 +1,41 @@
+.App {
+    background-color: #282c34;
+    min-height: 100vh;
+    min-width:11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+
+  .btn {
+    min-width:25%;
+  }
+
+  .card {
+    min-width: 11rem;
+    min-height: 16.5rem;
+  }
+  
+  .card-footer{
+    position:absolute;
+    bottom:0;
+    width:50%;
+  }
+  
+  #levelDisplay { font-size: calc(4px + 2vmin); }
+  
+ 
+  
+  .App-header {
+   
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
